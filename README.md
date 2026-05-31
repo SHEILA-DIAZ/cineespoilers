@@ -2,7 +2,7 @@
 E-commerce de tickets de cine construido con React + TypeScript + Vite.
 
 ## Author
-- Sheila Diaz Rojas — Tecsup 2025
+- Sheila Diaz Rojas
 
 ## Tech Stack
 - ⚛️ React 19 + TypeScript
