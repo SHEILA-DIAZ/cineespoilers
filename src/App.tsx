@@ -1,30 +1,32 @@
 import { Layout } from '@/components/layout/Layout'
-import { Button } from '@/components/ui/button'
-import { useEffect } from 'react'
-import { tmdb } from '@/lib/tmdb'
+import { MovieCard } from '@/components/ui/MovieCard'
+import { useMovies } from '@/hooks/useMovies'
 
 function App() {
-  useEffect(() => {
-    const fetchPopularMovies = async () => {
-      try {
-        const response = await tmdb.get('/movie/popular')
-        console.log(response.data)
-      } catch (error) {
-        console.error('Error fetching popular movies:', error)
-      }
-    }
+  const { movies, loading, error } = useMovies()
 
-    fetchPopularMovies()
-  }, [])
+  if (loading) return (
+    <Layout>
+      <p className="text-zinc-400 text-center mt-20">Cargando películas...</p>
+    </Layout>
+  )
+
+  if (error) return (
+    <Layout>
+      <p className="text-red-500 text-center mt-20">{error}</p>
+    </Layout>
+  )
 
   return (
     <Layout>
-      <h1 className="text-3xl font-bold text-white">
-        Bienvenido a <span className="text-red-500">CineSpoilerS</span>
-      </h1>
-      <Button className="mt-4 bg-red-600 hover:bg-red-700 text-white">
-        Click me
-      </Button>
+      <h2 className="text-2xl font-bold text-white mb-6">
+        🎬 Películas en <span className="text-red-500">Cartelera</span>
+      </h2>
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {movies.map(movie => (
+          <MovieCard key={movie.id} movie={movie} />
+        ))}
+      </div>
     </Layout>
   )
 }
