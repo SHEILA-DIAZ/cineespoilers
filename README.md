@@ -1,73 +1,61 @@
-# React + TypeScript + Vite
+# 🎬 CineSpoilerS
+E-commerce de tickets de cine construido con React + TypeScript + Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Author
+- Sheila Diaz Rojas — Tecsup 2025
 
-Currently, two official plugins are available:
+## Tech Stack
+- ⚛️ React 19 + TypeScript
+- ⚡ Vite 8
+- 🎨 Tailwind CSS v4
+- 🧩 Shadcn/ui
+- 🐻 Zustand
+- 🌐 Axios + TMDB API
+- 🛣️ React Router DOM
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- 🎥 Catálogo de películas en cartelera (TMDB API)
+- 🌑 UI oscura y minimalista
+- 🧩 Componentes reutilizables con Shadcn
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Getting Started
+```bash
+git clone https://github.com/SHEILA-DIAZ/cineespoilers.git
+cd cinespoilers
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Crea un archivo `.env.local`:
+```env
+VITE_TMDB_API_KEY=tu_api_key
+VITE_TMDB_TOKEN=tu_token
+VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 ```
+
+## Screenshots
+### Sheila Diaz Rojas
+
+#### 01 - React + Vite Running
+![01](src/assets/screenshots/01-vite-default.png)
+
+#### 02 - Clean Dev Environment
+![02](src/assets/screenshots/02-app-clean.png)
+
+#### 03 - Tailwind Installed
+![03](src/assets/screenshots/03-tailwind-installed.png)
+
+#### 04 - Alias Config
+![04](src/assets/screenshots/04-alias-config.png)
+
+#### 05 - Button Component
+![05](src/assets/screenshots/05-button-component.png)
+
+#### 06 - Shadcn Ready
+![06](src/assets/screenshots/05-shadcn-ready.png)
+
+#### 07 - TMDB Console
+![07](src/assets/screenshots/06-tmdb-console.png)
+
+#### 08 - Movies Grid
+![08](src/assets/screenshots/07-movies-grid.png)
