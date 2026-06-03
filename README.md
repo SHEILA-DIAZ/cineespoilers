@@ -82,7 +82,7 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 ![06](src/assets/screenshots/evidencia6.png)
 
 #### 07 - TMDB Console
-![07]()
+![07](src/assets/screenshots/evidencia7.png)
 
 #### 08 - Movies Grid
 ![08]()
