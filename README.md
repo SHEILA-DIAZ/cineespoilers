@@ -85,4 +85,4 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 ![07](src/assets/screenshots/evidencia7.png)
 
 #### 08 - Movies Grid
-![08]()
+![08](src/assets/screenshots/evidencia8.png)
