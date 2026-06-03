@@ -67,6 +67,7 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 
 #### 02 - Clean Dev Environment
 ![02](src/assets/screenshots/cinespoilers2.png)
+![02](src/assets/screenshots/evidencia2.png)
 
 #### 03 - Tailwind Installed
 ![03]()
