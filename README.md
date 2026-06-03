@@ -59,3 +59,8 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 
 #### 08 - Movies Grid
 ![08](src/assets/screenshots/07-movies-grid.png)
+
+### Naomi Sanchez
+
+#### 01 - React + Vite Running
+![01](src/assets/screenshots/vitecorriendo.png)
