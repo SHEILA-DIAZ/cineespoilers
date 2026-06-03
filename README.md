@@ -70,7 +70,7 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 ![02](src/assets/screenshots/evidencia2.png)
 
 #### 03 - Tailwind Installed
-![03]()
+![03](src/assets/screenshots/evidencia3.png)
 
 #### 04 - Alias Config
 ![04]()
