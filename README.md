@@ -64,3 +64,24 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 
 #### 01 - React + Vite Running
 ![01](src/assets/screenshots/vitecorriendo.png)
+
+#### 02 - Clean Dev Environment
+![02](src/assets/screenshots/cinespoilers2.png)
+
+#### 03 - Tailwind Installed
+![03]()
+
+#### 04 - Alias Config
+![04]()
+
+#### 05 - Button Component
+![05]()
+
+#### 06 - Shadcn Ready
+![06]()
+
+#### 07 - TMDB Console
+![07]()
+
+#### 08 - Movies Grid
+![08]()
