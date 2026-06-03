@@ -73,7 +73,7 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 ![03](src/assets/screenshots/evidencia3.png)
 
 #### 04 - Alias Config
-![04]()
+![04](src/assets/screenshots/evidencia4.png)
 
 #### 05 - Button Component
 ![05]()
