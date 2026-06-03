@@ -79,7 +79,7 @@ VITE_TMDB_BASE_URL=https://api.themoviedb.org/3
 ![05](src/assets/screenshots/evidencia5.png)
 
 #### 06 - Shadcn Ready
-![06]()
+![06](src/assets/screenshots/evidencia6.png)
 
 #### 07 - TMDB Console
 ![07]()

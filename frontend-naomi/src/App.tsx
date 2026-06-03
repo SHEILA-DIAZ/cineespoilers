@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button"
+import { Button } from "@/components/ui/button"
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
         Cine<span className="text-red-500">SpoilerS</span>
       </h1>
 
-      <Button>
+      <Button variant="destructive">
         Comprar Ticket
       </Button>
     </main>
